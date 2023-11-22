@@ -1,0 +1,2 @@
+HNP:
+	g++ *.cpp -Wall -O3 -o test -I /home/zfsn4617/ntl-10.5.0/include -L /home/zfsn4617/ntl-10.5.0/lib -lntl -Wl,-rpath=/home/zfsn4617/ntl-10.5.0/lib -I /home/zfsn4617/gmp-6.1.2/include -I /home/zfsn4617/mpfr-4.0.1/include -I /home/zfsn4617/fplll-5.2.1/include -I /home/zfsn4617/qd-2.3.23/include -L /home/zfsn4617/gmp-6.1.2/lib -lgmp -L /home/zfsn4617/mpfr-4.0.1/lib -lmpfr -L /home/zfsn4617/fplll-5.2.1/lib -lfplll -Wl,-rpath=/home/zfsn4617/gmp-6.1.2/lib -Wl,-rpath=/home/zfsn4617/mpfr-4.0.1/lib -Wl,-rpath=/home/zfsn4617/fplll-5.2.1/lib
